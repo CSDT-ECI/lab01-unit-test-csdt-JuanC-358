@@ -1,6 +1,26 @@
 class Yatzy:
 
     @staticmethod
+    def crazyChange( d1,  d2,  d3,  d4,d5):
+        sum = 0
+        if (d1 % 2 ==0):
+            sum += d1*3
+        else : sum += d1*2
+        if (d2 % 2 ==0):
+            sum += d2*3
+        else : sum += d2*2
+        if (d3 % 2 ==0):
+            sum += d3*3
+        else : sum += d3*2
+        if (d4 % 2 ==0):
+            sum += d4*3
+        else : sum += d4*2
+        if (d5 % 2 ==0):
+            sum += d5*3
+        else : sum += d5*2
+        return sum
+    
+    @staticmethod
     def chance(d1, d2, d3, d4, d5):
         total = 0
         total += d1
